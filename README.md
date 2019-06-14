@@ -4,9 +4,7 @@ This project uses SIFT algorithm to recognize bank notes and coins. In this case
 
 To download the project in your system copy and run the following command-
 
-''' 
-git clone https://github.com/shafinhasnat/Banknote-recognition-using-SIFT-openCV.git
-'''
+'''git clone https://github.com/shafinhasnat/Banknote-recognition-using-SIFT-openCV.git'''
 
 to execute the project, paste and run the following command-
 '''
