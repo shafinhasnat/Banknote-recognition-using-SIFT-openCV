@@ -1,29 +1,19 @@
-# Foobar
+# Banknote-recognition-using-SIFT-openCV
 
-Foobar is a Python library for dealing with word pluralization.
+This project uses SIFT algorithm to recognize bank notes and coins. In this case we used Bngladeshi notes and coins.
 
-## Installation
+## Download
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+To download the project in your system copy and run the following command-
 
 ```bash
-pip install foobar
+git clone https://github.com/shafinhasnat/Banknote-recognition-using-SIFT-openCV.git
 ```
 
 ## Usage
 
-```python
-import foobar
-
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
+To execute the project, paste and run the following command-
+```bash
+siftImg_maxMatch.py -i image.jpg
 ```
-
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
+```siftImg_maxMatch.py``` will return the result with maximum match. ```siftImg.py``` will return matches greather than the threshold value which is named as ```MIN_MATCH_COUNT``` . And ```sift.py``` is for video feed.
