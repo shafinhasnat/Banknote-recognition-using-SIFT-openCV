@@ -1,8 +1,9 @@
-#### Banknote-recognition-using-SIFT-openCV
+# Banknote-recognition-using-SIFT-openCV
 
 This project uses SIFT algorithm to recognize bank notes and coins. In this case we used Bngladeshi notes and coins.
 
 To download the project in your system copy and run the following command-
+
 '''
 git clone https://github.com/shafinhasnat/Banknote-recognition-using-SIFT-openCV.git
 '''
